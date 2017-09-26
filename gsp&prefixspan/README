@@ -1,0 +1,10 @@
+This program is a demo for gsp algorithm and prefixspan algorithm,written based on C++ 11 in the environment of Ubuntu 14.04.
+The Makefile is included, so each time when you want to run the program, first type:
+make
+
+in the terminal under the same directory of the program files to compile the programming files.
+The makefile will produce two .o files gsp and prefixspan standing for gsp algorithm and prefixspan algorithm respectively. To run the program of gsp and PrefixSpan respectively, just type:
+./gsp <minsup>
+./prefixspan <minsup>
+
+in the terminal under the same directory, where <minsup> is replaced by the minsup designed by the user. Then the program will read the data from the file named "sequencedb.txt" and output the result to the file named "output.txt" and output the running time to the terminal in the unit of second.
